@@ -14,14 +14,14 @@ public class Circle extends JFrame {
     private JButton sort;
     static Integer[] array = new Integer[15];
     public Circle() {
-        super("Tester");
+        super("Square");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         squares = new Squares();
         this.setLayout(new BorderLayout());
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new FlowLayout(FlowLayout.RIGHT));
         buttonPanel.setLayout(new FlowLayout(FlowLayout.RIGHT));
-        JButton generate = new JButton("Сгенерироватьtest");
+        JButton generate = new JButton("Сгенерировать");
         ActionListener actionListener = new TestActionListener();
         generate.addActionListener(actionListener);
         sort = new JButton("Сортировать");
