@@ -21,7 +21,7 @@ public class Circle extends JFrame {
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new FlowLayout(FlowLayout.RIGHT));
         buttonPanel.setLayout(new FlowLayout(FlowLayout.RIGHT));
-        JButton generate = new JButton("Сгенерировать");
+        JButton generate = new JButton("Сгенерироватьtest");
         ActionListener actionListener = new TestActionListener();
         generate.addActionListener(actionListener);
         sort = new JButton("Сортировать");
