@@ -14,7 +14,7 @@ public class Circle extends JFrame {
     private JButton sort;
     static Integer[] array = new Integer[15];
     public Circle() {
-        super("Square");
+        super("Lol");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         squares = new Squares();
         this.setLayout(new BorderLayout());
