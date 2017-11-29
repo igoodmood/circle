@@ -17,6 +17,7 @@ public class Circle extends JFrame {
         super("ForTask5");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         int task7 = 8;
+        int task7 = 7;
         squares = new Squares();
         this.setLayout(new BorderLayout());
         JPanel buttonPanel = new JPanel();
